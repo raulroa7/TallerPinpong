@@ -147,9 +147,9 @@
  }
 
  function hit(a,b){
-  //Revisa si a colisiona con b
+  //Verifica si la variable a colisiona con b
   var hit = false;
-  //Colisiones hirizontales
+  //Colisiones horizontales
   if(b.x + b.width >= a.x && b.x < a.x + a.width){
 
    //Colisiona verticales
