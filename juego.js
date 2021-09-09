@@ -204,7 +204,7 @@ document.addEventListener("keydown",function(ev){
   bar.up();
   
  }
- else if(ev.keyCode === 83){
+ else if(ev.keyCode === 65){
   ev.preventDefault();
   bar.down();
  }
